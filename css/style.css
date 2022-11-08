@@ -1,0 +1,299 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-']
+{
+      float: left;
+      /* border: 1px solid gray;  */
+}
+.row::after{
+      content: "";
+      clear: both;
+      display: block;
+}
+.container{
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+}
+.bg-body{ margin-bottom: 10px; margin-top: 10px;}
+.bg-div{ margin-bottom: 80px; margin-top: 80px;}
+
+.h-250{ height: 250px; }
+.h-100{ height: 100px; }
+.h-200{ height: 200px; }
+.h-50{ height: 50px; }
+.h-350{ height: 350px; }
+
+.footer-one{
+      background-image: url("..//img/1b.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 350px; 
+}
+.slider{
+      height: 350px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+  
+}
+.slider-wrapper{
+      margin-left: 350px;
+      padding: 60px;
+     
+}
+.slider-wrapper h1{
+       font-size: 18px;
+       text-transform: capitalize;
+       font-style: italic;
+     
+}
+.slider-wrapper h2{
+      text-transform: uppercase;
+      font-size: 30px;
+      margin-top: 4px;
+      font-style: inherit;
+}
+.slider-wrapper p{
+      margin-top: 6px;
+}
+.slider-wrapper a{
+      text-decoration: none;
+      background-color: rgb(209, 35, 35);
+      color: gainsboro; 
+      border-radius: 5px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      float: left;
+      margin-top: 20px;
+}
+.slider-wrapper p a{
+      border: 2px solid gainsboro;
+      background-color: #b4b8b8;
+      color: black;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      padding: 9px;
+}
+
+.section-two h1{
+      text-align: center;
+      text-transform: uppercase;
+      padding: 1px;
+      font-family:fantasy;
+}
+.section-two p{
+      text-align: center;
+      text-transform: capitalize;
+      font-style: italic;
+}
+.three-div-2 h1{
+      font-weight: bold;
+      text-transform: capitalize;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.three-div-2{
+      padding: 5px;
+      margin-left: 20px;
+}
+.three-div-2 i{
+      margin-top: 5px;
+      float: inherit;
+}
+.three-div-2 p{
+      margin-top: 15px;
+      color: rgb(31, 30, 30);
+}
+.three-div-3 a{
+      text-decoration: none;
+      background-color: rgb(212, 33, 33);
+      color: gainsboro; 
+      padding: 10px 20px;
+      text-transform: uppercase;
+      float: left;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-four {
+      height: 300px;
+      width: 450px;
+      background-color: #283339;
+      position: absolute;
+}
+.section-four h1{
+      text-align: center;
+      margin-top: 27px;
+      text-transform: capitalize;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+}
+.section-four p{
+      text-align: center;
+      margin-top: 25px;
+      color: rgb(45, 40, 40);
+      color: white;
+      padding: 5px;
+}
+.section-four a {
+      margin-left: 140px;
+      margin-top: 25px;
+      float: left;
+      text-decoration: none;
+      color: gainsboro; 
+      padding: 10px 20px;
+      text-transform: uppercase;
+      float: left;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+}
+.section-four-div2{
+      height: 300px;
+      width: 450px;
+      background-color: #A53C39;
+      position: absolute;
+}
+.section-four-div2 h1{
+      text-align: center;
+      margin-top: 27px;
+      text-transform: capitalize;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+}
+.section-four-div2 p{
+      text-align: center;
+      margin-top: 25px;
+      color: rgb(45, 40, 40);
+      color: white;
+      padding: 5px;
+}
+.section-four-div2 a{
+      margin-left: 140px;
+      margin-top: 25px;
+      float: left;
+      text-decoration: none;
+      color: gainsboro; 
+      padding: 10px 20px;
+      text-transform: uppercase;
+      float: left;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+}
+.section-four-div3{
+      height: 300px;
+      width: 450px;
+      background-color: #CE4845;
+      position: absolute;
+}
+.section-four-div3 h1{
+      text-align: center;
+      margin-top: 27px;
+      text-transform: capitalize;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+}
+.section-four-div3 p{
+      text-align: center;
+      margin-top: 25px;
+      color: rgb(45, 40, 40);
+      color: white;
+      padding: 5px;
+      position:absolute;
+}
+.section-four-div3 a{
+      margin-left: 140px;
+      margin-top: 25px;
+      float: left;
+      text-decoration: none;
+      color: gainsboro; 
+      padding: 10px 20px;
+      text-transform: uppercase;
+      float: left;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+}
+.section-four-div4{
+      height: 300px;
+      width: 450px;
+      background-color: #DC5F42;
+      position: absolute;
+}
+.section-four-div4 h1{
+      text-align: center;
+      margin-top: 27px;
+      text-transform: capitalize;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+}
+.section-four-div4 p{
+      text-align: center;
+      margin-top: 25px;
+      color: rgb(45, 40, 40);
+      color: white;
+      padding: 10px;
+}
+.section-four-div4 a{
+      margin-left: 140px;
+      margin-top: 25px;
+      float: left;
+      text-decoration: none;
+      color: gainsboro; 
+      padding: 10px 20px;
+      text-transform: uppercase;
+      float: left;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+}
+.sction-five h1{
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: uppercase;
+      text-align: center;
+}
+.sectin-six h1{
+      text-transform: capitalize;
+      font-family:monospace;
+      font-weight: bolder;
+      margin-left: 7px;
+}
+.sectin-six img{
+      margin-left: 17px;
+      width: 450px;
+      height: 250px;
+}
+.div-six img{
+      margin-left: 17px;
+      width: 450px;
+      height: 250px;
+}
+.div-six h1{
+      text-transform: capitalize;
+      font-family:monospace;
+      font-weight: bolder;
+      margin-left: 7px;
+}
+
+.div--1 h1{
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 4px;
+}
+.copy{
+    
+      color: black;
+      text-align: center;
+      margin-top: 20px;
+}
